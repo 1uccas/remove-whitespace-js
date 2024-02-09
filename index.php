@@ -6,7 +6,7 @@
 			<form action="index.php" method="POST" class="container-fluid">
 				<input type="text" name="input_text" id="input" class="form-control" value="" required="required" pattern="" title="">
 				<input type="text" name="input_text_result" id="input" class="form-control mt-3 mb-3 w-100" value="" required="required" pattern="" title="">
-				<button type="button" id="button_submit" class="btn btn-warning">Enter</button>
+				<button type="button" id="button_submit" class="btn btn-warning w-75">Enter</button>
 			</form>
 		</div>
 	</main>
