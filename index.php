@@ -5,8 +5,9 @@ function returnText(){
 		$text = $_POST['input_text'];
 		$resultText = $_POST['input_text_result'];
 
+		$newText = str_replace(" ","",$text);
 
-		return $text;
+		return $newText;
 	}else{
 		return die("404");
 	}
@@ -21,7 +22,7 @@ function returnText(){
 		<div class="navbar m-3">
 			<form action="index.php" method="POST" class="container-fluid">
 				<input type="text" name="input_text" id="input" class="form-control" required="required" >
-				<input type="text" name="input_text_result" id="input" class="form-control mt-3 mb-3 w-100" required="required" value="<?php echo returnText(); ?>">
+				<input type="text" name="input_text_result" id="input" class="form-control mt-3 mb-3 w-100" value="<?php echo returnText(); ?>">
 				<button type="submit" id="button_submit" class="btn btn-warning w-75">Enter</button>
 			</form>
 		</div>
