@@ -33,4 +33,4 @@ function returnText(){
 		</div>
 	</main>
 </body>
-<script src="copyText.js"></script>
+<script src="src/js/copyText.js"></script>
