@@ -19,9 +19,9 @@ function returnText(){
 <body>
 	<main class="class-master">
 		<div class="navbar m-3">
-			<form action="index.php" method="POST" class="container-fluid">
-				<input type="text" name="input_text" id="input" class="form-control" required="required" placeholder="Enter your text">
-				<input type="text" name="input_text_result" id="resultText" class="form-control mt-3 mb-3 w-100" value="<?php echo returnText(); ?>" placeholder="Result"><button id="copy" type="button" class="btn btn-primary">copy</button>
+			<form action="index.php" method="POST" class="container-md">
+				<input type="text" name="input_text" id="input" class="form-control w-50" required="required" placeholder="Enter your text">
+				<input type="text" name="input_text_result" id="resultText" class="form-control mt-3 mb-3 w-50" value="<?php echo returnText(); ?>" placeholder="Result"><button id="copy" type="button" class="btn btn-primary">copy</button>
 				<button type="submit" id="button_submit" class="btn btn-warning w-75">Enter</button>
 			</form>
 		</div>
