@@ -2,6 +2,7 @@ const button = document.querySelector("#button_submit");
 
 button.addEventListener('click', (e)=>{
     e.preventDefault();
+    const FormText = document.querySelector("#input");
 
     const inputText = document.querySelector("#input").value;
     const resultText = document.querySelector("#resultText");
@@ -9,5 +10,6 @@ button.addEventListener('click', (e)=>{
     const replaceText = inputText.replace(/\s/g, '');
     resultText.value = "";
     resultText.value +=  `${replaceText}`
-    console.log(replaceText);
+
+    FormText.value = "";
 })
