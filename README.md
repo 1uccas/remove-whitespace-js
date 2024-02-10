@@ -1,6 +1,8 @@
 # remove-whitespace-js
 This repository contains a script to remove whitespace from text.
 
+<img src="public/remove_whitespace.png">
+
 ## Idea
 
 Time is a crucial thing in my work environment and I often need to reduce many things to be able to consume less time. One of these things is **INVOICE NUMBER**.
