@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Protest Riot';
+  src: url("../../public/font/Protest_Riot/ProtestRiot-Regular.ttf");
+}
+*{
+	font-family: 'Protest Riot', sans-serif;
+}
+#input, #resultText{
+	color: black;
+	border: solid 0.5px gray;
+	box-shadow: 0px 3px 3px gray;
+}
+#button_submit{
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+#copy{
+	box-shadow: 0px 3px 3px gray;
+}
+#form{
+	border-radius: 10px;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.h1-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
