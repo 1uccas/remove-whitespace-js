@@ -20,6 +20,9 @@ function returnText(){
 	<main class="class-master">
 		<div class="navbar m-3">
 			<form action="index.php" method="POST" id="form" class="container-md">
+				<div class="h1-title">
+					<h1>Remove whitespace</h1>
+				</div>
 				<input type="text" name="input_text" id="input" class="form-control w-75" required="required" placeholder="Enter your text">
 				<div class="input-group w-75 mb-3">
 				  <input type="text" id="resultText" class="form-control mt-3" placeholder="Recipient's username" aria-label="Recipient's username" name="input_text_result" aria-describedby="button-addon2" value="<?php echo returnText(); ?>">
