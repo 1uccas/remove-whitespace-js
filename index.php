@@ -20,8 +20,11 @@ function returnText(){
 	<main class="class-master">
 		<div class="navbar m-3">
 			<form action="index.php" method="POST" class="container-md">
-				<input type="text" name="input_text" id="input" class="form-control w-50" required="required" placeholder="Enter your text">
-				<input type="text" name="input_text_result" id="resultText" class="form-control mt-3 mb-3 w-50" value="<?php echo returnText(); ?>" placeholder="Result"><button id="copy" type="button" class="btn btn-primary">copy</button>
+				<input type="text" name="input_text" id="input" class="form-control w-75" required="required" placeholder="Enter your text">
+				<div class="input-group w-75 mb-3">
+				  <input type="text" id="resultText" class="form-control mt-3" placeholder="Recipient's username" aria-label="Recipient's username" name="input_text_result" aria-describedby="button-addon2" value="<?php echo returnText(); ?>">
+				  <button class="btn btn-primary mt-3" type="button" id="copy">copy</button>
+				</div>
 				<button type="submit" id="button_submit" class="btn btn-warning w-75">Enter</button>
 			</form>
 		</div>
